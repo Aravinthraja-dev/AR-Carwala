@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(232, 236, 246);
+}
+section article{
+    float: left;
+}
+#logo img{
+    height: 100px;
+    width: 100%;
+    margin-left: 50px;
+}
+#sitename>h1{
+    font-size: 60px;
+    margin: 20px 0 0 70px;
+    -webkit-text-stroke-color: cornflowerblue;
+    -webkit-text-fill-color: azure;
+    -webkit-text-stroke: 1px;
+}
+#navClass>ul{
+    list-style-type: none;
+    color: dimgray;
+    font-size: 15px;
+    font-family: Arial;
+}
+#navClass>ul>li{
+    display: inline-block;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+#navClass{
+    position: relative;
+    top: 50px;
+    left: 280px;
+}
+#login>img{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    margin-left: 10px;
+    top: 10px;
+    left: 10px;
+}
+#login>#account{
+    font-size: 15px;
+    font-family: Arial;
+    margin-right: 20px;
+    position: relative;
+    left: 20px;
+    float: right;
+    line-height: 20px;
+    color: dimgray;
+}
+#login{
+    position: relative;
+    left: 350px;
+    top: 50px;
+}
+aside{
+    height: 900px;
+    width: 20%;
+    background-color: ghostwhite;
+    float: left;
+    position: relative;
+    right: 150px;
+}
+aside nav.sidebar {
+	position: fixed;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    width: 20%;
+    height: 100%;
+}
+.sidebar .text{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+aside nav ul{
+    background-color: #1b1b1b;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    color: white;
+    position: relative;
+}
+aside nav ul li{
+    line-height: 60px;
+    border-top: 1px solid rgba(160, 139, 139, 0.1);
+    padding-left: 50px;
+}
+aside nav ul li input{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 40px;
+    display: block;
+    width: 100%;
+}
+aside nav ul li.active input{
+    color: cyan;
+    background: #1e1e1e;
+    border-left-color: cyan;
+}
+aside nav ul li input:hover{
+    background: #1e1e1e;
+}
+aside nav ul ul{
+    position: absolute;
+    display: none;
+}
+aside nav ul ul li{
+    position: relative;
+    line-height: 42px;
+    border-bottom: none;
+}
+aside ul ul li input{
+    font-size: 17px;
+    color: #e6e6e6;
+}
+aside nav ul li:hover ul{
+    display: block;
+  
+}
+main{
+    height: 900px;
+    width: 100%;
+    position: relative;
+    right: 150px;
+}
+main div.topheading{
+    border-bottom: solid 1px black;
+    column-count: 2;
+    column-gap: 150px;
+    position: relative;
+    padding: 25px 0 20px 80px;
+}
+main label,select{
+    position: relative;
+    left: 200px;
+}
+main label{
+    font-weight: 900;
+}
+.carinventory img{
+    height: 200px;
+    width: 350px;
+}
+.firstrow{
+    column-count: 3;
+    padding: 10px 0 0 40px;
+}
+.secondrow{
+    column-count: 3;
+    padding: 20px 0 0 40px;
+}
+#car1 ul,#car2 ul,#car3 ul,#car4 ul,#car5 ul,#car6 ul{
+    list-style-type: none;
+    line-height: 30px;
+    text-align: center;
+}
+#car1,#car2,#car3,#car4,#car5,#car6{
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: 1s all;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.carname{
+    font-weight: bolder;
+}
+.price{
+    font-weight: 600;
+    color: red;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color:rgb(232, 236, 246);
+    position: absolute;
+}
+footer div#foothead{
+    font-family: 'Segoe UI';
+    text-align: center;
+    padding-top: 50px;
+}
+div#smimage img{
+    float: left;
+    height: 30px;
+    width: 30px;
+    padding: 15px;
+    position: relative;
+    left: 640px;
+}
+div#navbar nav ul{
+    clear: left; 
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+div#navbar nav ul>li{
+    line-height: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-family: Arial;
+}
+div#designer{
+    text-align: center;
+    padding: 10px 0 0 0;
+}

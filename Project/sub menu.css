@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: 0;
+    background-color: aquamarine;
+}
+.sidebar .text{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background-color: bisque;
+}
+nav ul{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    color: rebeccapurple
+}
+nav ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+nav ul ul li{
+    display: none;
+}
+nav li:hover ul{
+    display: block;
+}

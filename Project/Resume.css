@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    
+}
+header{
+    height: 300px;
+    width: 100%;
+}
+header #box>img{
+    height: 300px;
+    width: 273.4px;
+    float: left;
+}
+div#headname{
+    padding: 0 0 0 300px;
+}
+div#headname h1{
+    font-size: 70px;
+    font-family: system-ui;
+    color: blue;
+    line-height: 80px;
+    border-bottom: 1px solid black;
+    margin: 0 10px 0 0;
+    width: 500px;
+}
+div#headname p{
+    font-style: italic;
+    color: blue;
+    font-size: 20px;
+}
+div#about p{
+    font-family: system-ui;
+    padding: 10px 40px 10px 300px;
+    text-align: justify;
+}
+aside{
+    height: 1000px;
+    width: 30%;
+    float: left;
+    background-color: rgba(223, 234, 234, 0.83);
+}
+aside h3{
+    font-weight: bolder;
+    padding: 10px 0 5px 0;
+    border-bottom: 1px solid black;
+    margin: 0 10px 0 10px;
+    color: blue;
+}
+span.contact_details{
+    font-weight: bolder;
+}
+aside dl{
+    padding: 0 0 0 10px;
+    line-height: 25px;
+}
+aside #skills,#competencies,#lang{
+    list-style-type: none;
+    line-height: 25px;
+    padding: 0 0 0 10px;
+}
+span.checked{
+    color: blue;
+}
+main{
+    height: 1000px;
+    width: 100%;
+}
+main h2{
+    color: blue;
+    padding: 10px 0 0 10px;
+    border-bottom: 1px solid black;
+    margin: 0 10px 0 280px;
+}
+main .duration1,.duration2,.duration3,.duration4{
+    float: left;
+    padding: 10px 0 0 10px;
+}
+main div#workdetails,#workdetails2,#college,#institute{
+    padding: 10px 10px 0 450px;
+    text-align: justify;
+    line-height: 30px;
+}

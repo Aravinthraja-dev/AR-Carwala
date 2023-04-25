@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(232, 236, 246);
+}
+section>article{
+    float: left;
+}
+#logo>img{
+    height: 100px;
+    width: 100%;
+    margin-left: 50px;
+}
+#sitename>h1{
+    font-size: 60px;
+    margin: 20px 0 0 70px;
+    -webkit-text-stroke-color: cornflowerblue;
+    -webkit-text-fill-color: azure;
+    -webkit-text-stroke: 1px;
+}
+#navClass>ul{
+    list-style-type: none;
+    color: dimgray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navClass>ul>li{
+    display: inline-block;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+#navClass{
+    position: relative;
+    top: 50px;
+    left: 280px;
+}
+#login>img{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    margin-left: 10px;
+    top: 10px;
+    left: 10px;
+}
+#login>#account{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    position: relative;
+    left: 20px;
+    float: right;
+    line-height: 20px;
+    color: dimgray;
+}
+#login{
+    position: relative;
+    left: 350px;
+    top: 50px;
+}
+#slide{
+    overflow: hidden;
+    height: 450px;
+    width: 100%;
+}
+@keyframes slide{
+    0%{left: 0;}
+    30%{left: 0;}
+    33%{left: -100%;}
+    63%{left: -100%;}
+    66%{left: -200%;}
+    95%{left: -200%;}
+    100%{left: 0;}
+}
+#slide figure{
+    width: 300%;
+    position: relative;
+    animation: 9s slide infinite;
+}
+#slide figure:hover{
+    animation-play-state: paused;
+}
+#slide figure img{
+    width: 33.33333%;
+    height: 100%;
+    float: left;
+}
+aside#advt{
+    width: 20%;
+    background-color: white;
+    height: 900px;
+    float: left;
+}
+main{
+    height: 900px;
+    width: 80%;
+    margin-top: 10px;
+}
+main form{
+    border-bottom: 2px solid darkblue;
+    height: 40px;
+}
+main form div{
+    float: left;
+    padding: 10px;
+    position: relative;
+    font-family:Helvetica;
+}
+main #category{
+    padding: 20px 0 0 0;
+}
+#category h2{
+    color: crimson;
+    padding: 0 0 0 310px;
+}
+#category>#car1{
+    float: left;
+}
+#category>#car1 img{
+    height: 300px;
+    width: 300px; 
+    padding: 20px 0 0 0; 
+}
+#category>#car1 img:hover{
+    transform: scale(2,2);
+}
+#category>#car1 ul{
+    float: right;
+    list-style-type: none;
+    line-height: 40px;
+    padding: 20px 0 0 15px;
+}
+#category>#car2 img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 30px;  
+    padding: 20px 0 0 0;   
+}
+#category>#car2 img:hover{
+    transform: scale(2,2);
+}
+#category>#car2 ul{
+    float: right;
+    list-style-type: none;
+    line-height: 40px;
+    position: relative;
+    right: 10px;
+    padding: 20px 0 0 0;
+}
+#category .carname{
+    color: darkslateblue;
+}
+#category #button>button{
+    padding: 10px;
+    margin: 20px 0 0 0;
+    background-color: #4681f4;
+    border-radius: 5px;
+    color: black;
+    position: relative;
+    left: 800px;
+}
+#brand h2{
+    color: crimson;
+    padding: 0 0 0 310px;
+}
+#brand figure>img{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+#brand figure{
+    float: left;
+}
+#achivement{
+    clear: left;
+}
+#achivement h2{
+    color: crimson;
+    position: relative;
+    left: 310px;
+    bottom: 250px;
+}
+#achivement p{
+    position: relative;
+    left: 280px;
+    bottom: 240px;
+    padding: 0 300px 0 40px;
+    text-align: justify;
+    line-height: 50px;
+}
+#achivement button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4681f4;
+    position: relative;
+    left: 40px;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color:rgb(232, 236, 246);
+    position: relative;
+}
+footer div#foothead{
+    font-family: 'Segoe UI';
+    text-align: center;
+    padding-top: 50px;
+}
+div#smimage img{
+    float: left;
+    height: 30px;
+    width: 30px;
+    padding: 15px;
+    position: relative;
+    left: 640px;
+}
+div#navbar nav ul{
+    clear: left; 
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+div#navbar nav ul>li{
+    line-height: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-family: Arial;
+}
+div#designer{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+

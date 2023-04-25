@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(232, 236, 246);
+}
+section article{
+    float: left;
+}
+#logo img{
+    height: 100px;
+    width: 100%;
+    margin-left: 50px;
+}
+#sitename>h1{
+    font-size: 60px;
+    margin: 20px 0 0 70px;
+    -webkit-text-stroke-color: cornflowerblue;
+    -webkit-text-fill-color: azure;
+    -webkit-text-stroke: 1px;
+}
+#navClass>ul{
+    list-style-type: none;
+    color: dimgray;
+    font-size: 15px;
+    font-family: Arial;
+}
+#navClass>ul>li{
+    display: inline-block;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+#navClass{
+    position: relative;
+    top: 50px;
+    left: 280px;
+}
+#login>img{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    margin-left: 10px;
+    top: 10px;
+    left: 10px;
+}
+#login>#account{
+    font-size: 15px;
+    font-family: Arial;
+    margin-right: 20px;
+    position: relative;
+    left: 20px;
+    float: right;
+    line-height: 20px;
+    color: dimgray;
+}
+#login{
+    position: relative;
+    left: 350px;
+    top: 50px;
+}
+main{
+    height: 1250px;
+    width: 100%;
+}  
+#topindex{
+    column-count: 2;
+    column-gap: 40px;
+    padding: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-right: 150px;
+    position: relative;
+    left: 150px;
+} 
+#topindex .carname{
+    color: darkblue;
+    font-size: 40px;
+}
+#topindex button{
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    left: 40px;
+    letter-spacing: 1px;
+}
+#topindex button:hover{
+    border: 3px solid red;
+}
+#topindex .price{
+    color: brown;
+    font-weight: 900;
+}
+#sideImage{
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    padding: 10px 0 0 0;
+    left: 230px;
+}
+#sideImage img{
+    height: 200px;
+    width: 200px;
+}
+#overview{
+    clear: left;
+}
+#mainImage img{
+    height: 400px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#overview ul{
+    column-count: 2;
+    list-style-type: none;
+    line-height: 40px;
+    padding: 20px 10px 10px 100px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px grey; 
+    display: block;
+    margin-right: 135px;
+    margin-left: 135px;
+}
+#overview h3{
+    font-weight: 800;
+    color: brown;
+    margin-left: 135px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#overview h3:hover{
+    border-bottom: 2px solid blue;
+    width: 80px;
+}
+#features h3:hover{
+    border-bottom: 2px solid blue;
+    width: 70px;
+}
+span.details{
+    font-weight: 700;
+    color: darkblue;
+}
+#features h3{
+    font-weight: 800;
+    color: brown;
+    margin-left: 135px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#features ul{
+    column-count: 2;
+    list-style-type: none;
+    line-height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-right: 135px;
+    margin-left: 135px;
+    padding: 20px 10px 10px 100px;
+
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color:rgb(232, 236, 246);
+    position: relative;
+}
+footer div#foothead{
+    font-family: 'Segoe UI';
+    text-align: center;
+    padding-top: 50px;
+}
+div#smimage img{
+    float: left;
+    height: 30px;
+    width: 30px;
+    padding: 15px;
+    position: relative;
+    left: 640px;
+}
+div#navbar nav ul{
+    clear: left; 
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+div#navbar nav ul>li{
+    line-height: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-family: Arial;
+}
+div#designer{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
